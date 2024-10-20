@@ -9,6 +9,7 @@ import {
     Avatar,
 } from "@mui/material";
 
+// Theme for the dark gray background and white text
 const darkGrayTheme = createTheme({
     palette: {
         mode: "dark",
@@ -21,59 +22,60 @@ const darkGrayTheme = createTheme({
     },
 });
 
+// Skills array with updated image imports for better asset handling
 const skills = [
-    // Your skills array as before
     {
         name: "Python <br/>(Pandas, NumPy, <br />Scikit-learn)",
         level: "Proficient",
-        image: "src/assets/python.webp",
+        image: "/src/assets/python.webp",  // Direct path from src folder
     },
     {
         name: "TensorFlow",
         level: "Intermediate",
-        image: "src/assets/Tensor-flow.png",
+        image: "/src/assets/Tensor-flow.png",
     },
     {
         name: "PyTorch",
         level: "Intermediate",
-        image: "src/assets/pytorch.png",
+        image: "/src/assets/pytorch.png",
     },
     {
         name: "Google Colab",
         level: "Proficient",
-        image: "src/assets/google-colab.png",
+        image: "/src/assets/google-colab.png",
     },
     {
         name: "Streamlit",
         level: "Proficient",
-        image: "src/assets/streamlit.png",
+        image: "/src/assets/streamlit.png",
     },
     {
         name: "Plotly",
         level: "Proficient",
-        image: "src/assets/plotly.png",
+        image: "/src/assets/plotly.png",
     },
     {
         name: "Matplotlib",
         level: "Proficient",
-        image: "src/assets/matplotlib.jpg",
+        image: "/src/assets/matplotlib.jpg",
     },
     {
         name: "Seaborn",
         level: "Proficient",
-        image: "src/assets/seaborn.png",
+        image: "/src/assets/seaborn.png",
     },
     {
         name: "Reinforcement Learning",
         level: "Intermediate",
-        image: "src/assets/reinforcement-learning.png",
+        image: "/src/assets/reinforcement-learning.png",
     },
     {
         name: "NLP (Natural Language Processing)",
         level: "Intermediate",
-        image: "src/assets/nlp.png",
+        image: "/src/assets/nlp.png",
     }
 ];
+
 
 const SecondSection = () => {
     return (
@@ -91,7 +93,7 @@ const SecondSection = () => {
                     About Me
                 </Typography>
                 <Typography variant="body1" sx={{ mb: 4, fontSize: { xs: 16, md: 20 } }}>
-                    I am a dedicated professional with a background in machine learning and data analysis. I have hands-on expertise working with web applications, model training, and data visualization tools, alongside a strong focus on environmental sustainability projects, including carbon footprint analysis and mining operations optimization.
+                    I am a dedicated professional with a background in machine learning and data analysis. I have hands-on expertise working with web applications, model training, and data visualization tools, alongside a strong focus on environmental sustainability projects.
                 </Typography>
 
                 <Typography variant="h5" sx={{ mb: 2 }}>
@@ -157,10 +159,10 @@ const SecondSection = () => {
                                         sx={{
                                             fontSize: { xs: "16px", md: "18px" },
                                             mb: 1,
-                                            textAlign:"center",
+                                            textAlign: "center",
                                         }}
                                         dangerouslySetInnerHTML={{ __html: skill.name }} 
-                                    / >
+                                    />
                                     <Typography
                                         variant="body2"
                                         sx={{
