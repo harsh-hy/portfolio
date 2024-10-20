@@ -8,6 +8,17 @@ import {
     createTheme,
     Avatar,
 } from "@mui/material";
+import pythonImg from "/src/assets/python.webp";
+import tensorflowImg from "/src/assets/Tensor-flow.png";
+import pytorchImg from "/src/assets/pytorch.png";
+import colabImg from "/src/assets/google-colab.png";
+import streamlitImg from "/src/assets/streamlit.png";
+import plotlyImg from "/src/assets/plotly.png";
+import matplotlibImg from "/src/assets/matplotlib.jpg";
+import seabornImg from "/src/assets/seaborn.png";
+import rlImg from "/src/assets/reinforcement-learning.png";
+import nlpImg from "/src/assets/nlp.png";
+
 
 // Theme for the dark gray background and white text
 const darkGrayTheme = createTheme({
@@ -27,54 +38,55 @@ const skills = [
     {
         name: "Python <br/>(Pandas, NumPy, <br />Scikit-learn)",
         level: "Proficient",
-        image: "/src/assets/python.webp",  // Direct path from src folder
+        image: pythonImg,
     },
     {
         name: "TensorFlow",
         level: "Intermediate",
-        image: "/src/assets/Tensor-flow.png",
+        image: tensorflowImg,
     },
     {
         name: "PyTorch",
         level: "Intermediate",
-        image: "/src/assets/pytorch.png",
+        image: pytorchImg,
     },
     {
         name: "Google Colab",
         level: "Proficient",
-        image: "/src/assets/google-colab.png",
+        image: colabImg,
     },
     {
         name: "Streamlit",
         level: "Proficient",
-        image: "/src/assets/streamlit.png",
+        image: streamlitImg,
     },
     {
         name: "Plotly",
         level: "Proficient",
-        image: "/src/assets/plotly.png",
+        image: plotlyImg,
     },
     {
         name: "Matplotlib",
         level: "Proficient",
-        image: "/src/assets/matplotlib.jpg",
+        image: matplotlibImg,
     },
     {
         name: "Seaborn",
         level: "Proficient",
-        image: "/src/assets/seaborn.png",
+        image: seabornImg,
     },
     {
         name: "Reinforcement Learning",
         level: "Intermediate",
-        image: "/src/assets/reinforcement-learning.png",
+        image: rlImg,
     },
     {
         name: "NLP (Natural Language Processing)",
         level: "Intermediate",
-        image: "/src/assets/nlp.png",
+        image: nlpImg,
     }
 ];
+
 
 
 const SecondSection = () => {
@@ -161,7 +173,7 @@ const SecondSection = () => {
                                             mb: 1,
                                             textAlign: "center",
                                         }}
-                                        dangerouslySetInnerHTML={{ __html: skill.name }} 
+                                        dangerouslySetInnerHTML={{ __html: skill.name }}
                                     />
                                     <Typography
                                         variant="body2"
