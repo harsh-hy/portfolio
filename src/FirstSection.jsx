@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import neil from "/src/assets/neil.jpg"
 import {
     Box,
     Typography,
@@ -114,8 +115,8 @@ const FirstSection = () => {
                             height: { xs: 120, sm: 160, md: 200, lg: 250 }, // Auto height to maintain aspect ratio
                             maxWidth: "100%", // Ensures the image doesn't exceed its container
                         }}
-                        alt="Aditya Kumar"
-                        src="src/assets/neil.jpg" // Use your image path
+                        alt="Neil Parkhe"
+                        src={neil} // Use your image path
                     />
                     <IconButton
                         sx={{
