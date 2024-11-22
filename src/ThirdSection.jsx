@@ -27,16 +27,16 @@ const darkGrayishTheme = createTheme({
 // Sample projects array
 const projects = [
     {
-      title: "Cinemica",
-      description: "A movie booking interface using HTML, CSS, and JavaScript.",
+      title: "Pustakalaya",
+      description: "A fully functional website for buying and selling books ",
     },
     {
       title: "Inventory Management System using JSON",
       description: "Manages orders and sales and stores the record in a JSON file.",
     },
     {
-      title: "GDP Analysis",
-      description: "Analyzes GDP data of various countries over a specified period, providing insights into economic growth, trends, and factors influencing GDP changes.",
+      title: "Neural Machine Translation",
+      description: "Developed a Neural Machine Translation model with Attention, achieving 96% accuracy on a Hindi dataset using seq2seq.",
     }
   ];
    

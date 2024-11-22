@@ -81,7 +81,7 @@ const skills = [
         image: rlImg,
     },
     {
-        name: "NLP (Natural Language Processing)",
+        name: "NLP (Natural Language Processing",
         level: "Intermediate",
         image: nlpImg,
     }
@@ -105,7 +105,7 @@ const SecondSection = () => {
                     About Me
                 </Typography>
                 <Typography variant="body1" sx={{ mb: 4, fontSize: { xs: 16, md: 20 } }}>
-                    I am a dedicated professional with a background in machine learning and data analysis. I have hands-on expertise working with web applications, model training, and data visualization tools, alongside a strong focus on environmental sustainability projects.
+                    I am a passionate learner with expertise in Java, data structures, and algorithms. I have hands-on experience in developing machine learning models, web applications, and solving real-world problems, with a focus on environmental sustainability and innovative solutions.
                 </Typography>
 
                 <Typography variant="h5" sx={{ mb: 2 }}>

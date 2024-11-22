@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import neil from "/src/assets/neil.jpg"
+import neil from "/src/assets/harsh.png"
 import {
     Box,
     Typography,

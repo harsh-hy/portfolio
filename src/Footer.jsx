@@ -44,7 +44,7 @@ const Footer = () => {
         {/* Social Media Icons */}
         <Box sx={{ display: "flex", gap: 2 }}>
           <IconButton
-            href="https://x.com/parkhe_neil"
+            href="https://x.com/HarshYadav027"
             target="_blank"
             sx={{ color: "#1DA1F2" }} // X (Twitter)'s color
           >
@@ -52,7 +52,7 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
-            href="https://github.com/Neil-05"
+            href="https://github.com/harsh-hy"
             target="_blank"
             sx={{ color: "#333" }} // GitHub's color
           >
@@ -60,7 +60,7 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
-            href="https://www.linkedin.com/in/neil-parkhe/"
+            href="https://www.linkedin.com/in/harshyadav-hy/"
             target="_blank"
             sx={{ color: "#0077b5" }} // LinkedIn's color
           >
@@ -68,14 +68,14 @@ const Footer = () => {
           </IconButton>
 
           <IconButton
-            href="mailto:neilparkhe@gmail.com" // Mailto link for email
+            href="mailto:harshyadav02266@gmail.com" // Mailto link for email
             sx={{ color: "#D44638" }} // Email color
           >
             <Email />
           </IconButton>
 
           <IconButton
-            href="tel:+91-9673622730" // Phone number link
+            href="tel:+91-8381386560" // Phone number link
             sx={{ color: "#4caf50" }} // Green color for phone
           >
             <Phone />
