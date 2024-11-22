@@ -69,7 +69,7 @@ const FirstSection = () => {
                     }}
                 >
                     <Typography variant="h3" sx={{ fontWeight: "bold" }}>
-                        Neil Parkhe
+                        Harsh Yadav
                     </Typography>
                     <Typography variant="h5" sx={{ mt: 1, fontWeight: "medium" }}>
                         {title}
@@ -115,7 +115,7 @@ const FirstSection = () => {
                             height: { xs: 120, sm: 160, md: 200, lg: 250 }, // Auto height to maintain aspect ratio
                             maxWidth: "100%", // Ensures the image doesn't exceed its container
                         }}
-                        alt="Neil Parkhe"
+                        alt="Harsh Yadav"
                         src={neil} // Use your image path
                     />
                     <IconButton
